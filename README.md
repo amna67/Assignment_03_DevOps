@@ -13,3 +13,4 @@ Lint CSS files on your code
 npx stylelint "**/*.css"
 Build your code
 npx parcel build "./src/index.html" --dist-dir "./dist" --public-url "./" --no-cache
+CI trigger test
