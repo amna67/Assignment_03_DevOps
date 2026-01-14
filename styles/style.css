@@ -177,4 +177,31 @@ footer {
   background-color: #2563eb;
 }
 
-/* Notice section*/
+/* Contact Page */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  padding: 1.8rem 1.6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-top: 4px solid #3b82f6;
+}
+
+.contact-card h3 {
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card p {
+  color: #374151;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
