@@ -40,8 +40,8 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Image
-        run: docker image build -t ${{ secrets.DOCKERHUB_USERNAME }}/assignment_03_DevOps:latest .
+        run: docker image build -t ${{ secrets.DOCKERHUB_USERNAME }}/assignment_03_devops:latest .
       - name: List the Images
         run: docker image ls
       - name: Push Docker Image on Dockerhub
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/assignment_03_DevOps:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/assignment_03_devops:latest
