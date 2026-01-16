@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/style.css" />
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css" />
+    <title>Document</title>
 </head>
-
 <body>
-  <header>
-    <div class="container header-inner">
-      <div class="logo">University Digital Notice Board</div>
+    <header>
+  <div class="container header-inner">
+    <div class="logo">University Digital Notice Board</div>
+    
+    
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="notice.html">Notices</a></li>
+        <li><a href="exams.html">Exams</a></li>
+        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
+<main class="container">
+  <section class="page-header">
+        <h1>Academic Notices</h1>
+        <p>Official announcements and circulars issued by the university administration.</p>
+    </section>
 
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="notice.html">Notices</a></li>
-          <li><a href="exams.html">Exams</a></li>
-          <li><a href="admissions.html">Admissions</a></li>
-          <li><a href="events.html">Events</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <section class="notice-list">
 
-  <main class="container">
-    <!-- Page content goes here -->
-  </main>
+        <article class="notice-card">
+            <h3>Mid-Term Examination Schedule Released</h3>
+            <p class="notice-meta">Issued on: 10 March 2026 | Office of Examinations</p>
+            <p>The mid-term examination schedule for Spring 2026 has been published. Students are advised to review the dates carefully.</p>
+        </article>
 
-  <footer>
-    <p>© 2025–2026 University Name • All rights reserved</p>
-    <p>Digital Notice Board • Powered by University IT Services</p>
-  </footer>
+        <article class="notice-card">
+            <h3>Fee Submission Deadline Extension</h3>
+            <p class="notice-meta">Issued on: 05 March 2026 | Finance Department</p>
+            <p>The deadline for semester fee submission has been extended by one week due to system maintenance.</p>
+        </article>
+
+        <article class="notice-card">
+            <h3>Holiday Notification</h3>
+            <p class="notice-meta">Issued on: 01 March 2026 | Registrar Office</p>
+            <p>The university will remain closed on account of a public holiday as per government notification.</p>
+        </article>
+
+    </section>
+</main>
+
+<footer>
+  <p>© 2025–2026 University Name • All rights reserved</p>
+  <p>Digital Notice Board • Powered by University IT Services</p>
+</footer>
 </body>
-
 </html>
