@@ -19,7 +19,7 @@ body {
 
 /* Header & Nav */
 header {
-  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
   color: white;
   padding: 1.2rem 0;
   box-shadow: 0 4px 12px rgba(0,0,0,0.12);
@@ -85,4 +85,172 @@ footer {
   h1 {
     font-size: 2rem;
   }
+}
+
+/* Hero Section */
+.hero {
+  width: 100%;
+  text-align: center;
+  padding: 5rem 0;
+  background: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.15rem;
+  margin-bottom: 2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .btn {
+  background-color: #1e3a8a;
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1.6rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #2563eb;
+}
+
+/* Quick Links Section */
+.quick-links h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.8rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #1e3a8a;
+}
+
+.card p {
+  font-size: 0.95rem;
+  margin-bottom: 1.2rem;
+  color: #374151;
+}
+
+.card-btn {
+  text-decoration: none;
+  color: white;
+  background-color: #3b82f6;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.card-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Contact Page */
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.contact-card {
+  background-color: #ffffff;
+  padding: 1.8rem 1.6rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-top: 4px solid #3b82f6;
+}
+
+.contact-card h3 {
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-card p {
+  color: #374151;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+/* Notices Page */
+
+.page-header {
+  margin: 3rem 0 2rem;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: 2.2rem;
+  color: #1e3a8a;
+  margin-bottom: 0.6rem;
+}
+
+.page-header p {
+  color: #4b5563;
+  font-size: 1rem;
+}
+
+.notice-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.notice-card {
+  background-color: #ffffff;
+  padding: 1.6rem 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  border-left: 5px solid #3b82f6;
+}
+
+.notice-card h3 {
+  color: #1e3a8a;
+  font-size: 1.2rem;
+  margin-bottom: 0.4rem;
+}
+
+.notice-meta {
+  font-size: 0.85rem;
+  color: #6b7280;
+  margin-bottom: 0.8rem;
+}
+
+.notice-card p {
+  color: #374151;
+  font-size: 0.95rem;
 }
